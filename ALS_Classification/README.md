@@ -54,6 +54,10 @@ The Orange workflow (`ALS_CLASSIFICATION_WORKFLOW.ows`) follows this pipeline:
 
 **Key finding**: Jitter, shimmer, and MFCC features showed statistically significant differences between ALS patients and healthy controls. SVM achieved the strongest overall performance with 84% accuracy.
 
+## Workflow Screenshot
+
+![ALS Workflow](als_workflow.png)
+
 ## Files
 
 - `ALS_CLASSIFICATION_WORKFLOW.ows` — Orange workflow file
