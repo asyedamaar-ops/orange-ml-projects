@@ -20,6 +20,14 @@ The Orange workflow (`clustering_orange_assign.ows`) follows this pipeline:
    - **Scatter Plot** → visualize clusters across two features
    - **Box Plot** → compare feature distributions across clusters
    - **Distributions** → examine how feature values are distributed within each cluster
+  
+   - ## Workflow Screenshot
+
+![Clustering Workflow](clustering_workflow.png)
+
+## Dendrogram
+
+![Hierarchical Clustering Dendrogram](clustering_dendrogram.png)
 
 ## Approach
 
