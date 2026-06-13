@@ -28,6 +28,13 @@ The Orange workflow (`Titanic_orange_assign.ows`) follows this pipeline:
 7. **Test and Score** → evaluates the model using cross-validation
 8. **ROC Analysis** → visualizes the trade-off between true positive and false positive rates to assess classifier performance
 
+   ## Visualizations
+
+![Scatter Plot](titanic_scatter.png)
+![Distributions by Sex](titanic_distributions_sex.png)
+![Distributions by Status](titanic_distributions_status.png)
+![ROC Analysis](titanic_roc.png)
+
 ## Approach
 
 Logistic Regression was chosen as a simple, interpretable baseline well-suited to binary classification problems. It provides direct insight into how each feature (e.g., passenger class, sex, fare) influences survival probability, while the ROC Analysis widget helps assess overall discriminative power independent of a fixed classification threshold.
